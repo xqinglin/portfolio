@@ -68,7 +68,8 @@
       }
       
       .flip-box-back {
-          background-color: #555;
+        color:#d3d3d3;
+          background-color: #000036;
           color: white;
           transform: rotateY(180deg);
       }
@@ -89,14 +90,6 @@
       .title{
         align-content: center;
         color: #3E3E3E;
-      }
-      a, a:visited { 
-        color: #7bacdd; 
-        text-decoration: none;
-      }
-      a:hover{
-        color: black; 
-        text-decoration: none;         
       }
        audio{
         height: 38px;
@@ -142,9 +135,17 @@
             grid-template-columns: 
         }
     } */
-    .flip-anchor{
-      color:#1d1d30;
-    }
+/*    .flip-anchor{
+      color:#C8F7C5;
+    }*/
+    a, a:visited { 
+        color: #FFD700;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #E0FFFF; 
+        text-decoration: none;         
+      }
 
 
     
