@@ -1,0 +1,41 @@
+
+audio{
+        height: 38px;
+}
+#carouselExampleControls{
+    width: 500px;
+    height: 500px;
+    margin: auto auto;
+}
+#carouselExampleControls2{
+    width: 500px;
+    height: 800px;
+    margin: auto auto;
+}
+#carouselExampleControls3{
+    width: 500px;
+    height: 600px;
+    margin: auto auto;
+}
+#carouselExampleControls4{
+    width: 500px;
+    height: 400;
+    margin: auto auto;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+.card-body{
+    padding-top: 20px;
+    border-bottom: 3px solid lightgrey;
+}
+#last-body{
+    border:none;
+}
+p{
+    padding: 0px;
+    margin: 0px;       
+}

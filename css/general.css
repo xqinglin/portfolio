@@ -1,0 +1,108 @@
+    /* General */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #3d3c3c;
+    }
+    /* Header style */
+    #head-connect{
+        border:none;
+    }
+    header, .header{
+        background-color: #F7F7F7;
+        padding: 0px;
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Spicy Rice', cursive;
+        padding-top: 10px;
+        margin: 0px;
+
+    }
+    a:visited{
+        color: gray;
+        text-decoration: none;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black;
+        text-decoration: none;
+    }
+    .hide{
+        display: none;
+        font-size: 20px;
+    }
+    .contact{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .goTop{
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin: auto auto;
+        text-align: center;
+        color: #360000;
+    }
+    #goTop, #goTop:visited { 
+        color: black !important; 
+        text-decoration: none;
+    }
+    #goTop:hover{
+        color: darkgray !important;  
+        text-decoration: none;         
+    }
+    footer{
+        border-top: 1px solid lightgrey;
+ 
+    }
+    .contact-list{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-color: #1d1d30;
+        color:lightgrey;    
+        padding-top: 10px;   
+    }
+    .card-header{
+        border-top:none;
+    }
+    .card{
+        border: none;
+    }
+    .nav-link.disabled {
+    color: #1d1d30 !IMPORTANT;
+    }
+    .nav-link {
+    color: #360000 !IMPORTANT;
+    }
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+} 

@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3c3c;
+}
+#googleMap{
+    height: 400px;
+    width: 100%;
+}
+.subContent{
+    /* display: grid;
+    grid-template-columns: 30% 70%; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.item-content{
+    height: 300px;
+    width: auto;
+}
+.description{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+audio{
+    height: 38px;
+}
+.item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid lightgrey;
+}
+#from{
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+h2{
+    padding-top:50px;
+}
+@media only screen and (min-width: 800px) {
+    .subContent{
+        display:grid;
+        grid-template-columns: 100%; 
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .subContent{
+        display:grid;
+        grid-template-columns:30% 70%;  
+    }
+}

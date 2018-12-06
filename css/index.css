@@ -1,0 +1,64 @@
+#content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.subContent{
+    padding: 50px;
+}
+a, a:visited { 
+    color: black; 
+    text-decoration: none;
+}
+a:hover{
+    color: gray; 
+    text-decoration: none;         
+}
+img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact1{
+    font-size: 20px;
+    padding-top: 20px;
+    font-size: 60%;
+}
+#email1, #ins1, #github1, #linkedin1{
+    display: None;
+}
+#selfIntro{
+    margin-left:100px;
+    font-size: 200%;
+    text-align: left;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3c3c;
+}
+.headLine{
+    display: inline;
+}
+#keyword{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#whoAmI{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+audio{
+    height: 38px;
+}
+#wolverine{
+    padding-bottom: 50px;
+}
+#roar{
+    display: none;
+    font-family: 'Spicy Rice', cursive;
+}
+.subContent1{
+    padding-bottom: 100px;
+}

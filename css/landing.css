@@ -1,0 +1,26 @@
+body{
+    background-color:black;
+}
+.box{
+    text-align: center;
+    padding-top: 300px;  
+    color: #d4d4d4; 
+    background-color:black;
+}
+#name{
+    font-family: 'Spicy Rice', cursive;
+    background-color:black;
+}
+a{
+    border-radius: 40%;
+    font-size: 40px;
+    background-color:#d4d4d4; 
+    color: black;
+}
+a:hover{
+    color: #545454;
+    text-decoration: none;
+}
+audio{
+        height: 40px;
+}
