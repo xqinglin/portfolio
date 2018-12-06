@@ -62,3 +62,7 @@ audio{
 .subContent1{
     padding-bottom: 100px;
 }
+#me{
+    width: 400px;
+    height: auto;
+}
